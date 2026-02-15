@@ -7,7 +7,7 @@ The data model is a **Star Schema** centered around a single fact table (`Fact_C
 * **Source Files:** 3 CSVs
 * **Schema Type:** Star Schema
 * **Date Logic:** Direct Date Dimension (derived from `Service_Date`)+
-  
+
 ---
 
 ## Table Relationships
@@ -15,6 +15,48 @@ The data model is a **Star Schema** centered around a single fact table (`Fact_C
 - Fact_Claims.Patient_ID → Dim_Patients.Patient_ID (Many-to-One)
 - Fact_Claims.Diagnosis_Code → Dim_Diagnosis.Diagnosis_Code (Many-to-One)
 
+```mermaid
+erDiagram
+    Fact_Claims {
+        string Claim_ID PK
+        string Patient_ID FK
+        string Diagnosis_Code FK
+        date Service_Date
+        string Provider
+        string Payer
+        string State
+        string Status
+        string Denial_Reason
+        int Days_to_Process
+        float Billed_Amount
+        float Allowed_Amount
+        float Paid_Amount
+        float Contractual_Adj
+        float Deductible
+        float Co_Pay
+        float Co_Insurance
+        float Patient_Total_Resp
+        float Patient_Paid
+        float Patient_Balance_Due
+    }
+
+    Dim_Patients {
+        string Patient_ID PK
+        int Age
+        string Gender
+        string Plan_Type
+        int Member_Since
+    }
+
+    Dim_Diagnosis {
+        string Diagnosis_Code PK
+        string Friendly_Name
+        string Category
+    }
+
+    Dim_Patients ||--o{ Fact_Claims : "patient metrics"
+    Dim_Diagnosis ||--o{ Fact_Claims : "clinical risk"
+```
 ---
 
 ## Fact Table: `Fact_Claims`
@@ -93,5 +135,3 @@ A dynamic slicer allowing users to switch the X-Axis on charts between different
 
 Kristine Soliman  
 Data & Operations Analyst | Chandler, AZ
-
-
