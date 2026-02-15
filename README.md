@@ -36,15 +36,21 @@ Designed for the CFO/VP of Revenue Cycle.
 * **Features:** Frequency Toggles (Year/Month/Week), Operational Velocity tracking.
 * **Goal:** Monitor the high-level pulse of the revenue cycle and identify macro-trends in processing time vs. collection yield.
 
+screenshots/Executive Overview.png
+
 ### Insurance Performance (Tactical)
 Designed for Payer Relations & Billing Managers.
 * **Features:** Denial composition analysis, heat-mapped Payer Realization Matrix.
 * **Goal:** Identify low-performing contracts and high-friction denial reasons (e.g., "Authorization Missing") to guide front-end process improvements.
 
+screenshots/Insurance Performance.png
+
 ### Patient Finance (Operational)
 Designed for Collections & Financial Counselors.
 * **Features:** Revenue Realization Funnel, Clinical Category Risk Profiling.
 * **Goal:** Drill through from high-risk clinical categories (e.g., Cardiac) to specific patient account lists for targeted intervention.
+
+screenshots/Patient Finance.png
 
 ## Key Insights & Findings
 * **The "UnitedHealth" Outlier:** Analysis identifies UnitedHealth as a primary driver of operational friction, showing significantly higher processing times compared to other payers, impacting cash liquidity.
@@ -56,27 +62,6 @@ Designed for Collections & Financial Counselors.
 * **Architecture:** Star Schema (Fact_Claims linked to Dim_Patient and Dim_Diagnosis).
 * **Tools:** Power BI, DAX, Python (Data Generation), GitHub.
 * **Advanced Logic:** Uses a "Waterfall" calculation methodology to track Billed $\to$ Allowed $\to$ Paid $\to$ Balance.
-
-## 7. Intelligence Layers
-
-### 1. Executive Overview (Strategic)
-* **Frequency Toggle:** Dynamically shifts trends between Year, Quarter, Month, and Week views.
-* **Operational Velocity:** Visualizes "Days to Process" to identify bottlenecks.
-
-![Executive Overview](screenshots/Executive Overview.png)
-*(Click image to view full resolution)*
-
-### 2. Insurance Performance (Tactical)
-* **Payer Realization Matrix:** Heat-mapped matrix identifying specific payers with high leakage.
-* **Denial Composition:** Stacked analysis of denial counts by reason.
-
-![Insurance Performance](screenshots/Insurance Performance.png)
-
-### 3. Patient Finance (Operational)
-* **Revenue Realization Funnel:** Visualizes erosion from $78M Billed to $6M Bad Debt.
-* **Clinical Risk Profile:** Maps ICD-10 codes to identify high-risk cohorts (Cardiac, Digestive).
-
-![Patient Finance](screenshots/Patient Finance.png)
 
 *(For full technical details, measures, and logic, see the `/docs` folder).*
 
