@@ -81,3 +81,10 @@ healthcare-revenue-integrity-dashboard/
 ├── docs/              # Technical documentation (DAX, Dictionary, Logic)
 ├── screenshots/       # Dashboard images for review
 └── README.md          # Project overview
+```
+
+---
+## Author
+
+**Kristine Soliman**  
+Data & Operations Analyst | Chandler, AZ  
