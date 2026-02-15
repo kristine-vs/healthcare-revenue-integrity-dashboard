@@ -1,7 +1,5 @@
-# healthcare-revenue-integrity-dashboard
-Power BI dashboard analyzing healthcare revenue cycle risk, denials, collections, and patient financial responsibility.
-
 # Healthcare Revenue Integrity & Risk Intelligence Dashboard
+Power BI dashboard analyzing healthcare revenue cycle risk, denials, collections, and patient financial responsibility.
 
 ### Data Disclaimer
 **IMPORTANT:** All data utilized in this project is **synthetic/dummy data**. It has been programmatically generated for demonstration purposes and does not represent real patient records, actual healthcare facilities, or proprietary insurance contract details. This project demonstrates RCM analytical capabilities while maintaining strict HIPAA-compliance standards.
