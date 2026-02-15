@@ -35,22 +35,28 @@ This project analyzes a **$77.8M billing portfolio** to simulate a full Revenue 
 Designed for the CFO/VP of Revenue Cycle.
 * **Features:** Frequency Toggles (Year/Month/Week), Operational Velocity tracking.
 * **Goal:** Monitor the high-level pulse of the revenue cycle and identify macro-trends in processing time vs. collection yield.
-
-screenshots/Executive Overview.png
+  
+![Executive Overview](screenshots/Executive%20Overview.png)
+*(Click image to view full resolution)*
 
 ### Insurance Performance (Tactical)
 Designed for Payer Relations & Billing Managers.
 * **Features:** Denial composition analysis, heat-mapped Payer Realization Matrix.
 * **Goal:** Identify low-performing contracts and high-friction denial reasons (e.g., "Authorization Missing") to guide front-end process improvements.
 
-screenshots/Insurance Performance.png
+![Insurance Performance](screenshots/Insurance%20Performance.png)
+*(Click image to view full resolution)*
 
 ### Patient Finance (Operational)
 Designed for Collections & Financial Counselors.
 * **Features:** Revenue Realization Funnel, Clinical Category Risk Profiling.
 * **Goal:** Drill through from high-risk clinical categories (e.g., Cardiac) to specific patient account lists for targeted intervention.
 
-screenshots/Patient Finance.png
+![Patient Finance](screenshots/Patient%20Finance.png)
+*(Click image to view full resolution)*
+
+![Patient Details Drill-Through](screenshots/patient_detail_drill_through.png)
+*(Click image to view full resolution)*
 
 ## Key Insights & Findings
 * **The "UnitedHealth" Outlier:** Analysis identifies UnitedHealth as a primary driver of operational friction, showing significantly higher processing times compared to other payers, impacting cash liquidity.
