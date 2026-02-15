@@ -1,0 +1,11 @@
+﻿Diagnosis_Code,Friendly_Name,Category
+I10,Hypertension,Cardiac
+E11.9,Type 2 Diabetes,Metabolic
+F32.9,Depression,Mental Health
+M54.50,Low Back Pain,MSK
+Z00.00,Wellness Visit,Preventive
+E78.5,High Cholesterol,Metabolic
+K21.9,GERD (Acid Reflux),Digestive
+J45.909,Asthma,Respiratory
+I50.9,Heart Failure,Cardiac
+N18.6,ESRD (Dialysis),Renal
