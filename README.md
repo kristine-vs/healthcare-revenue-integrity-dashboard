@@ -56,7 +56,6 @@ Designed for Collections & Financial Counselors.
 *(Click image to view full resolution)*
 
 ![Patient Details Drill-Through](screenshots/patient_detail_drill_through.png)
-*(Click image to view full resolution)*
 
 ## Key Insights & Findings
 * **The "UnitedHealth" Outlier:** Analysis identifies UnitedHealth as a primary driver of operational friction, showing significantly higher processing times compared to other payers, impacting cash liquidity.
