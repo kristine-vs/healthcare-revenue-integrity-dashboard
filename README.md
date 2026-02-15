@@ -4,6 +4,11 @@ Power BI dashboard analyzing healthcare revenue cycle risk, denials, collections
 ### Data Disclaimer
 **IMPORTANT:** All data utilized in this project is **synthetic/dummy data**. It has been programmatically generated for demonstration purposes and does not represent real patient records, actual healthcare facilities, or proprietary insurance contract details. This project demonstrates RCM analytical capabilities while maintaining strict HIPAA-compliance standards.
 
+## Assumptions & Limitations
+* **Single-Line Claims:** This model assumes one service line per claim ID for simplified granularity.
+* **Payer Landscape:** Primary insurance logic only; does not currently model secondary coordination of benefits (COB).
+* **Recoupments:** Focuses on initial denial/payment; does not model complex takebacks or retroactive adjustments.
+  
 ---
 
 ## 1. Project Overview
