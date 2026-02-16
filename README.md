@@ -18,7 +18,7 @@ Healthcare organizations lose millions annually to "Revenue Leakage", money earn
 This project analyzes a **$77.8M billing portfolio** to simulate a full Revenue Cycle Management (RCM) funnel. It moves beyond simple reporting to provide **Revenue Integrity Intelligence**, pinpointing exactly where friction occurs between the service date and the bank deposit.
 
 ## 2. Business Questions Answered
-* **Leakage Detection:** Where is the revenue eroding—contractual write-offs, payer denials, or patient non-payment?
+* **Leakage Detection:** Where is the revenue eroding - contractual write-offs, payer denials, or patient non-payment?
 * **Clinical Risk:** Which diagnosis categories (e.g., Cardiac vs. MSK) generate the highest concentration of bad debt?
 * **Insurance Scorecard:** Which insurance payers have strong operational efficiency but weak financial realization?
 * **Patient Behavior:** How does patient tenure (<3 years vs. 10+ years) correlate with collection reliability?
