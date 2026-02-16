@@ -13,7 +13,7 @@ Power BI dashboard analyzing healthcare revenue cycle risk, denials, collections
 
 ## 1. Project Overview
 **What problem are we solving?**
-Healthcare organizations lose millions annually to "Revenue Leakage"—money earned clinically but never collected due to administrative denials, poor payer realization, or patient bad debt.
+Healthcare organizations lose millions annually to "Revenue Leakage", money earned clinically but never collected due to administrative denials, poor payer realization, or patient bad debt.
 
 This project analyzes a **$77.8M billing portfolio** to simulate a full Revenue Cycle Management (RCM) funnel. It moves beyond simple reporting to provide **Revenue Integrity Intelligence**, pinpointing exactly where friction occurs between the service date and the bank deposit.
 
