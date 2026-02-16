@@ -25,11 +25,14 @@ The dashboard follows standard healthcare accounting principles to reconcile rev
 * **Patient Paid:** Payment received from the patient.
 
 ### 5. Revenue Leakage (The Gap)
-Leakage occurs when *Allowed Amount* > *Total Paid* (Total Insurance Paid/Total Patient Paid). 
-Note: Contractual adjustments are excluded from leakage calculations, as they represent negotiated discounts rather than operational losses.
+Leakage occurs when *Allowed Amount* > *Total Paid* (Total Insurance Paid/Total Patient Paid). <br>
+Note: Contractual adjustments are excluded from leakage calculations, as they represent negotiated discounts rather than operational losses. <br>
 This dashboard categorizes leakage into two buckets:
 1.  **Denial Write-offs:** Revenue lost because the insurance company refused to pay.
-2.  **Bad Debt:** Revenue lost because the patient failed to pay their portion.
+2.  **Bad Debt:** Revenue lost because the patient failed to pay their portion.<br>
+   
+Note: Denied charges may overlap with patient responsibility and bad debt, as some denied claims are shifted to patients rather than fully written off. In these cases, a denied claim may partially convert into patient liability and subsequent bad debt rather than representing a complete revenue loss.
+
 
 ## Visualizing the Waterfall
 The "Revenue Realization Funnel" on Tab 3 validates this logic:
