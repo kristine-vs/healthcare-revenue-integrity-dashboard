@@ -75,7 +75,7 @@ Designed for Collections & Financial Counselors.
 
 ---
 
-## 📂 Folder Structure
+## Repository Structure
 ```text
 healthcare-revenue-integrity/
 │
