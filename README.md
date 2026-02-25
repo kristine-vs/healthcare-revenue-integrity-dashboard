@@ -77,14 +77,31 @@ Designed for Collections & Financial Counselors.
 
 ## 📂 Folder Structure
 ```text
-healthcare-revenue-integrity-dashboard/
+healthcare-revenue-integrity/
 │
-├── data/              # Raw synthetic datasets
-├── dashboards/        # Power BI (.pbix) files
-├── docs/              # Technical documentation (DAX, Dictionary, Logic)
-├── screenshots/       # Dashboard images for review
-├── README.md          # Project overview                
-└── LICENSE            # MIT License
+├── dashboard/          # Power BI dashboard files
+│   └── Healthcare Revenue Integrity & Risk Intelligence.pbix
+│
+├── data/               # Dimensional & fact datasets
+│   ├── Dim_Diagnosis.csv
+│   ├── Dim_Patients.csv
+│   └── Fact_Claims.csv
+│
+├── docs/               # Technical & business logic documentation
+│   ├── data_dictionary.md
+│   ├── dax_library.md
+│   └── rcm_financial_logic.md
+│
+├── screenshots/        # Dashboard visuals
+│   ├── Executive Overview.png
+│   ├── Insurance Performance.png
+│   ├── Patient Finance.png
+│   ├── patient_detail_drill_through.png
+│   ├── patient_diagnosis_tooltip.png
+│   └── root_cause_financial_impact_tooltip.png
+│
+├── README.md           # Project overview
+└── LICENSE             # MIT License
 ```
 
 ---
