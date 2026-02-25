@@ -83,7 +83,8 @@ healthcare-revenue-integrity-dashboard/
 ├── dashboards/        # Power BI (.pbix) files
 ├── docs/              # Technical documentation (DAX, Dictionary, Logic)
 ├── screenshots/       # Dashboard images for review
-└── README.md          # Project overview
+├── README.md          # Project overview                
+└── LICENSE            # MIT License
 ```
 
 ---
